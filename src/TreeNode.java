@@ -80,4 +80,6 @@ public class TreeNode<E extends Comparable<E>> {
     public int compareTo(TreeNode<E> node){
         return value.compareTo(node.getValue());
     }
+
+
 }
